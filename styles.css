@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#container{
+    background: #f4f3ef;
+    overflow-x: hidden;
+}
+
+#video-head {
+    width: 100vw;
+}
+
+.logo {
+    width: 18vw;
+    margin-left: 2vh;
+    margin-top:1vh;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    padding: 2.5%;
+    float: right;
+    text-align: right;
+}
+
+a {
+    font-size: 2vw;
+    color: #f4f3ef;
+    padding: 1vw;
+}
+
+#material {
+    text-align: center;
+    position: relative;
+    padding: 2%;
+}
+  
+h2{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+#img1 {
+    height: 70vh;
+}
+
+#img2 {
+    height: 70vh;
+}
+
+footer {
+    position:static;
+    text-align: center;
+}
