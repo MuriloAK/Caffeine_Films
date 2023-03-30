@@ -10,10 +10,12 @@
     overflow-x: hidden;
 }
 
+/* video */
 #video-head {
     width: 100vw;
 }
 
+/* logo Navbar */
 .logo {
     width: 18vw;
     margin-left: 2vh;
@@ -21,11 +23,18 @@
     position: relative;
 }
 
+/* Navbar */
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
+.navbar.ativo {
+    background: #FBAA01;
+}
+
+/* Painel Links Navbar */
 nav {
     position: relative;
     padding: 2.5%;
@@ -33,32 +42,68 @@ nav {
     text-align: right;
 }
 
+/* Links navbar */
 a {
     font-size: 2vw;
     color: #f4f3ef;
-    padding: 1vw;
+    padding: 1vw; 
 }
 
+/* Todo conteudo da pagina */
 #material {
     text-align: center;
     position: relative;
     padding: 2%;
 }
   
+/* Titulos */
 h2{
     font-size: 2vw;
     font-weight: 400;
 }
 
+
+/* Criações (imagens) */
 #img1 {
     height: 70vh;
 }
 
 #img2 {
     height: 70vh;
+    width:20vw;
 }
 
-footer {
+/* Footer (barra de contatos) */
+#contacts {
     position:static;
     text-align: center;
+    background: #FBAA01;
+    color:#f4f3ef;
+}
+
+.contatos {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* Icones */
+#iWhats {
+    width: 3vw;
+}
+
+#iInsta {
+    width: 3vw;
+}
+
+#iFacebook {
+    width: 3vw;
+}
+
+#iYoutube {
+    width: 3vw;
+}
+
+#iEmail {
+    width: 3vw;
 }
