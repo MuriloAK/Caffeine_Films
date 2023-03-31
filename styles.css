@@ -46,7 +46,8 @@ nav {
 a {
     font-size: 2vw;
     color: #f4f3ef;
-    padding: 1vw; 
+    padding: 1vw;
+    text-decoration: none
 }
 
 /* Todo conteudo da pagina */
@@ -58,19 +59,53 @@ a {
   
 /* Titulos */
 h2{
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 400;
+    text-shadow:2px 5px 10px #FBAA01;
 }
 
 
 /* Criações (imagens) */
-#img1 {
-    height: 70vh;
+#img2 {
+   width: 70vw;
 }
 
-#img2 {
-    height: 70vh;
-    width:20vw;
+#img2:hover{
+    background: cinza;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+/* Logo Clientes */
+
+.calibre {
+    width: 15vw;
+    background: #FBAA01;
+}
+
+.heineken {
+    width: 15vw;
+    background: #FBAA01;
+}
+
+.laser {
+    width: 15vw;
+    background: #FBAA01;
+}
+
+.luxtel {
+    width: 15vw;
+    background: #FBAA01;
+}
+
+.secret {
+    width: 15vw;
+    background: #FBAA01;
+}
+
+.suavidad {
+    width: 15vw;
+    background: #FBAA01;
 }
 
 /* Footer (barra de contatos) */
@@ -106,4 +141,22 @@ h2{
 
 #iEmail {
     width: 3vw;
+}
+
+@media screen and ( min-width: 600px) { 
+    
+    #img2 {
+
+        height: 70vh;
+        width: 45vw;
+    }
+}
+
+@media screen and ( max-width: 600px) {
+
+    h2{
+        font-size: 6vw;
+        font-weight: 400;
+    }
+
 }
