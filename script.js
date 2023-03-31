@@ -9,7 +9,7 @@ window.addEventListener('scroll', activeScroll)
 
 
 // ação de transição de imagens //
-let time = 5000,
+let time = 2000,
     currentImageIndex = 0,
     images = document
                 .querySelectorAll("#slider img")

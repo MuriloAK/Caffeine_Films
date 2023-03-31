@@ -5,7 +5,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-#container{
+#container {
     background: #f4f3ef;
     overflow-x: hidden;
 }
@@ -39,7 +39,7 @@ nav {
     position: relative;
     padding: 2.5%;
     float: right;
-    text-align: right;
+    text-align: center;
 }
 
 /* Links navbar */
@@ -51,59 +51,55 @@ a {
 }
 
 /* Todo conteudo da pagina */
-#material {
+#page {
     text-align: center;
-    position: relative;
     padding: 2%;
 }
   
 /* Titulos */
-h2{
+h2 {
     font-size: 3vw;
     font-weight: 400;
     text-shadow:2px 5px 10px #FBAA01;
 }
 
-
 /* Criações (imagens) */
-#img2 {
-   width: 70vw;
+#imgInt1 #imgInt2 #imgInt3 #imgInt4 #imgInt4 
+#imgInt5 #imgInt6 #imgInt7 #imgInt8 #imgInt9 #imgInt10{
+    width: 65vw;
 }
 
-#img2:hover{
-    background: cinza;
-    transition: 0.5s;
-    opacity: 0.7;
+.disp {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    height: 80vh;
+    width: 40vw;
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
 }
 
 /* Logo Clientes */
-
-.calibre {
-    width: 15vw;
-    background: #FBAA01;
-}
-
-.heineken {
-    width: 15vw;
-    background: #FBAA01;
-}
-
-.laser {
-    width: 15vw;
-    background: #FBAA01;
-}
-
-.luxtel {
-    width: 15vw;
-    background: #FBAA01;
-}
-
-.secret {
-    width: 15vw;
-    background: #FBAA01;
-}
-
-.suavidad {
+.logos {
     width: 15vw;
     background: #FBAA01;
 }
@@ -123,32 +119,17 @@ h2{
 }
 
 /* Icones */
-#iWhats {
+.Iconescont {
     width: 3vw;
 }
 
-#iInsta {
-    width: 3vw;
-}
-
-#iFacebook {
-    width: 3vw;
-}
-
-#iYoutube {
-    width: 3vw;
-}
-
-#iEmail {
-    width: 3vw;
-}
-
+/*Ajuste de tela */
 @media screen and ( min-width: 600px) { 
     
-    #img2 {
+    #slider img{
 
-        height: 70vh;
-        width: 45vw;
+        height: 80vh;
+        width: 40vw;
     }
 }
 
@@ -158,5 +139,9 @@ h2{
         font-size: 6vw;
         font-weight: 400;
     }
+
+    #slider img{
+        width: 80vw;
+        height: 70vh;
 
 }
