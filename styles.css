@@ -19,7 +19,6 @@
 .logo {
     width: 18vw;
     margin-left: 2vh;
-    margin-top:1vh;
     position: relative;
 }
 
@@ -55,12 +54,23 @@ a {
     text-align: center;
     padding: 2%;
 }
+
+/* espaçamemtos das sections */
+section {
+    padding: 3vh;
+}
   
 /* Titulos */
 h2 {
     font-size: 3vw;
     font-weight: 400;
     text-shadow:2px 5px 10px #FBAA01;
+    padding: 2vh;
+}
+
+/* tamanho de fonte dos paragrafos */
+p {
+    font-size: 2vw;
 }
 
 /* Criações (imagens) */
@@ -68,7 +78,7 @@ h2 {
 #imgInt5 #imgInt6 #imgInt7 #imgInt8 #imgInt9 #imgInt10{
     width: 65vw;
 }
-
+    /* Sobreposição e alteração de imagens  JS */
 .disp {
     display: flex;
     flex-direction: center;
@@ -143,5 +153,4 @@ h2 {
     #slider img{
         width: 80vw;
         height: 70vh;
-
 }
