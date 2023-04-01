@@ -2,7 +2,7 @@
  const menu = document.querySelector('.navbar')
 
 function activeScroll(){
-    menu.classList.toggle('ativo', scrollY > 850);
+    menu.classList.toggle('ativo', scrollY > 830);
 }
 
 window.addEventListener('scroll', activeScroll)

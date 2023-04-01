@@ -111,7 +111,7 @@ p {
 /* Logo Clientes */
 .logos {
     width: 15vw;
-    background: #FBAA01;
+    padding-left: 4vh;
 }
 
 /* Footer (barra de contatos) */
