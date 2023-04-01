@@ -52,20 +52,23 @@ a {
 /* Todo conteudo da pagina */
 #page {
     text-align: center;
-    padding: 2%;
+    padding-bottom: 2vh;
 }
 
 /* espaçamemtos das sections */
 section {
-    padding: 3vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
 }
   
 /* Titulos */
 h2 {
+    margin-bottom: 3vh;
     font-size: 3vw;
     font-weight: 400;
-    text-shadow:2px 5px 10px #FBAA01;
+    /* text-shadow:2px 5px 10px #FBAA01; */
     padding: 2vh;
+    background: #FBAA01;
 }
 
 /* tamanho de fonte dos paragrafos */
