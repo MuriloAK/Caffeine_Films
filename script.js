@@ -1,5 +1,6 @@
  // ação de alteração de cor dentro da navbar //
- const menu = document.querySelector('.navbar')
+ 
+const menu = document.querySelector('.navbar')
 
 function activeScroll(){
     menu.classList.toggle('ativo', scrollY > 830);

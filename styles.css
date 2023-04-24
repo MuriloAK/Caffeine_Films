@@ -24,7 +24,7 @@
 
 /* Navbar */
 .navbar {
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 1;
 }
@@ -52,34 +52,32 @@ a {
 /* Todo conteudo da pagina */
 #page {
     text-align: center;
+    justify-content: center;
     padding-bottom: 2vh;
+    width: 80%;
+    margin-left: 10%;
 }
 
 /* espaçamemtos das sections */
 section {
     padding-bottom: 3vh;
-    padding-top: 3vh;
 }
   
 /* Titulos */
 h2 {
-    margin-bottom: 3vh;
-    margin-top: 10vh;
     font-size: 3vw;
     font-weight: 400;
     /* text-shadow:2px 5px 10px #FBAA01; */
     padding: 2vh;
-    background: #FBAA01;
 }
 
 /* tamanho de fonte dos paragrafos */
 p {
-    font-size: 2vw;
+    font-size: 1.50vw;
+    text-align: center;
+    justify-content: center;
 }
 
-ul {
-    margin-top: 12vh;
-}
 
 /* Criações (imagens) */
 #imgInt1 #imgInt2 #imgInt3 #imgInt4 #imgInt4 
@@ -117,17 +115,23 @@ ul {
 }
 
 /* Logo Clientes */
+.costumers2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logos {
-    margin-top:9vh;
     width: 15vw;
-    padding-left: 4vh;
+    padding-left: 3vh;
+    padding-top: 5vh;
 }
 
 /* Footer (barra de contatos) */
 #contactsinfo {
     position:static;
     text-align: center;
-    background: #FBAA01;
 }
 
 .contatos {
@@ -150,15 +154,43 @@ ul {
     }
 }
 
+/* Responsividade celular */
 @media screen and ( max-width: 600px) {
 
     h2{
         font-size: 6vw;
         font-weight: 400;
     }
+    
+    p {
+        font-size: 3vw;
+        text-align: center;
+        justify-content: center;
+    }
 
     #slider img{
         width: 80vw;
         height: 70vh;
     }
+
+    .costumers2 {
+        display: inline-block;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos {
+        width: 30vw;
+        padding-left: 3vh;
+        padding-top: 5vh;
+    }
+
+    .contatos {
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 3vh;
+    }
+
 }
