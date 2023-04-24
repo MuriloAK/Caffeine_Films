@@ -227,4 +227,10 @@ p {
         margin-bottom: 3vh;
     }
 
+    /* Icones */
+    .Iconescont {
+        width: 6vw;
+        margin-right: 5vw;
+    }
+
 }
