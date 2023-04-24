@@ -17,7 +17,7 @@
 
 /* logo Navbar */
 .logo {
-    width: 18vw;
+    width: 15vw;
     margin-left: 2vh;
     position: relative;
 }
@@ -36,7 +36,7 @@
 /* Painel Links Navbar */
 nav {
     position: relative;
-    padding: 2.5%;
+    padding: 2%;
     float: right;
     text-align: center;
 }
@@ -64,6 +64,7 @@ section {
 /* Titulos */
 h2 {
     margin-bottom: 3vh;
+    margin-top: 10vh;
     font-size: 3vw;
     font-weight: 400;
     /* text-shadow:2px 5px 10px #FBAA01; */
@@ -74,6 +75,10 @@ h2 {
 /* tamanho de fonte dos paragrafos */
 p {
     font-size: 2vw;
+}
+
+ul {
+    margin-top: 12vh;
 }
 
 /* Criações (imagens) */
@@ -113,16 +118,16 @@ p {
 
 /* Logo Clientes */
 .logos {
+    margin-top:9vh;
     width: 15vw;
     padding-left: 4vh;
 }
 
 /* Footer (barra de contatos) */
-#contacts {
+#contactsinfo {
     position:static;
     text-align: center;
     background: #FBAA01;
-    color:#f4f3ef;
 }
 
 .contatos {
@@ -140,7 +145,6 @@ p {
 @media screen and ( min-width: 600px) { 
     
     #slider img{
-
         height: 80vh;
         width: 40vw;
     }
