@@ -79,6 +79,36 @@ p {
     justify-content: center;
 }
 
+#mais {
+    display: none;
+}
+
+#btnLeiaMais {
+    font-size: 1.50vw;
+    background: #f4f3ef;
+	color: #FBAA01;
+	border-style: none;
+	border-color: #f4f3ef;
+	text-shadow: none;
+    margin-top:2vh;
+    cursor: pointer;
+}
+
+#mais2 {
+    display: none;
+}
+
+#btnLeiaMais2 {
+    font-size: 1.50vw;
+    background: #f4f3ef;
+	color: #FBAA01;
+	border-style: none;
+	border-color: #f4f3ef;
+	text-shadow: none;
+    margin-top:2vh;
+    cursor: pointer;
+}
+
 
 /* Criações (imagens) */
 #imgInt1 #imgInt2 #imgInt3 #imgInt4 #imgInt4 

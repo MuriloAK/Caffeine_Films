@@ -1,40 +1,32 @@
- // ação de alteração de cor dentro da navbar //
- 
-const menu = document.querySelector('.navbar')
+function leiaMaisSobre(){
+    var pontos=document.getElementById("pontos");
+    var maisTexto=document.getElementById("mais");
+    var btnLeiaMais=document.getElementById("btnLeiaMais");
 
-function activeScroll(){
-    menu.classList.toggle('ativo', scrollY > 830);
+    if(pontos.style.display === "none"){
+        pontos.style.display = "inline";
+        maisTexto.style.display = "none";
+        btnLeiaMais.innerHTML = "Leia Mais";
+    }else{
+        pontos.style.display = "none";
+        maisTexto.style.display = "inline";
+        btnLeiaMais.innerHTML = "Leia Menos";
+    }
 }
 
-window.addEventListener('scroll', activeScroll)
 
+function leiaMaisServices(){
+    var pontos2=document.getElementById("pontos2");
+    var maisTexto2=document.getElementById("mais2");
+    var btnLeiaMais2=document.getElementById("btnLeiaMais2");
 
-// ação de transição de imagens //
-let time = 2000,
-    currentImageIndex = 0,
-    images = document
-                .querySelectorAll("#slider img")
-    max = images.length;
-
-function nextImage() {
-
-    images[currentImageIndex]
-        .classList.remove("selected")
-
-    currentImageIndex++
-
-    if(currentImageIndex >= max)
-        currentImageIndex = 0
-
-    images[currentImageIndex]
-        .classList.add("selected")
+    if(pontos2.style.display === "none"){
+        pontos2.style.display = "inline";
+        maisTexto2.style.display = "none";
+        btnLeiaMais2.innerHTML = "Leia Mais";
+    }else{
+        pontos2.style.display = "none";
+        maisTexto2.style.display = "inline";
+        btnLeiaMais2.innerHTML = "Leia Menos";
+    }
 }
-
-function start() {
-    setInterval(() => {
-        // troca de image
-        nextImage()
-    }, time)
-}
-
-window.addEventListener("load", start)
