@@ -22,6 +22,7 @@
     position: relative;
 }
 
+
 /* Navbar */
 .navbar {
     position: absolute;
@@ -82,26 +83,46 @@ p {
 /* Criações (imagens) */
 #imgInt1 #imgInt2 #imgInt3 #imgInt4 #imgInt4 
 #imgInt5 #imgInt6 #imgInt7 #imgInt8 #imgInt9 #imgInt10{
-    width: 65vw;
+    width: 50px;
 }
-    /* Sobreposição e alteração de imagens  JS */
-.disp {
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
-}
+   /* Sobreposição e alteração de imagens  JS */
 
 #slider {
-    height: 80vh;
-    width: 40vw;
-    position: relative;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+    display: inline-block;
+    padding-right: 20vw;
 }
 
+.teste {
+    /*opacidade*/
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    filter: alpha(opacity=75);
+    -webkit-filter: opacity(0.75);
+    /*filtro P/B*/
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+    /*qualidade*/
+    image-rendering: auto;
+            height: 70vh;
+          width: 45vw;
+  }
+  
+  .teste:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-filter: opacity(1);
+    filter: none;
+    /* Firefox 10+ */
+    -webkit-filter: grayscale(0%);
+    /* Chrome 19+ & Safari 6+ */
+    image-rendering: auto;
+  }
+
+/*
 #slider img{
     opacity: 0;
     position: absolute;
@@ -113,6 +134,7 @@ p {
 #slider img.selected { 
     opacity: 1;
 }
+*/
 
 /* Logo Clientes */
 .costumers2 {
@@ -149,8 +171,8 @@ p {
 @media screen and ( min-width: 600px) { 
     
     #slider img{
-        height: 80vh;
-        width: 40vw;
+        height: 40vh;
+        width: 20vw;
     }
 }
 
@@ -168,10 +190,22 @@ p {
         justify-content: center;
     }
 
-    #slider img{
-        width: 80vw;
-        height: 70vh;
-    }
+    .teste {
+        /*opacidade*/
+        opacity: 0.75;
+        -moz-opacity: 0.75;
+        filter: alpha(opacity=75);
+        -webkit-filter: opacity(0.75);
+        /*filtro P/B*/
+        filter: gray;
+        /* IE6-9 */
+        -webkit-filter: grayscale(100%);
+        /* Chrome 19+ & Safari 6+ */
+        /*qualidade*/
+        image-rendering: auto;
+            width: 26vw;
+            height: 40vh;
+      }
 
     .costumers2 {
         display: inline-block;
