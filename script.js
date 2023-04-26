@@ -1,3 +1,5 @@
+// Script de botão leia mais para os textos de serviços e sobre nós
+
 function leiaMaisSobre(){
     var pontos=document.getElementById("pontos");
     var maisTexto=document.getElementById("mais");
