@@ -18,9 +18,9 @@ function leiaMaisSobre(){
 
 
 function leiaMaisServices(){
-    var pontos2=document.getElementById("pontos2");
-    var maisTexto2=document.getElementById("mais2");
-    var btnLeiaMais2=document.getElementById("btnLeiaMais2");
+    var pontos2=document.getElementById("pontosSrv");
+    var maisTexto2=document.getElementById("maisSrv");
+    var btnLeiaMais2=document.getElementById("btnLeiaMaisSrv");
 
     if(pontos2.style.display === "none"){
         pontos2.style.display = "inline";

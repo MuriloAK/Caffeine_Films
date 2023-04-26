@@ -96,11 +96,11 @@ p {
     cursor: pointer;
 }
 
-#mais2 {
+#maisSrv {
     display: none;
 }
 
-#btnLeiaMais2 {
+#btnLeiaMaisSrv {
     font-size: 1.50vw;
     background: #f4f3ef;
 	color: #FBAA01;
